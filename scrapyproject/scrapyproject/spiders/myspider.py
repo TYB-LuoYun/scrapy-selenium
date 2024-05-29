@@ -7,7 +7,7 @@ class MyspiderSpider(scrapy.Spider):
     name = "myspider"
     allowed_domains = ["etherscan.io"]
     rootUrl = "https://etherscan.io"
-    pageUrl = "https://etherscan.io/tokens?&sort=percent_change_24h&order=desc&p="
+    pageUrl = "https://www.adidas.com/us/search?sort=newest-to-oldest"
     page = 1
     start_urls = [pageUrl + str(page)]
     pages = None;

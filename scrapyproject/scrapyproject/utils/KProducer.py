@@ -10,9 +10,9 @@ class KProducer:
         :param bootstrap_servers: 地址
         :param topic:  topic
         """
-        self.producer = KafkaProducer(
-            bootstrap_servers=bootstrap_servers )  # json 格式化发送的内容
-        self.topic = topic
+        # self.producer = KafkaProducer(
+        #     bootstrap_servers=bootstrap_servers )  # json 格式化发送的内容
+        # self.topic = topic
  
     def sync_producer(self, data_li: list):
         """

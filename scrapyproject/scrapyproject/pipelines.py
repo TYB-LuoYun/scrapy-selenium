@@ -15,7 +15,7 @@ class ScrapyprojectPipeline:
 
 class MyPipeline(object): 
     def __init__(self) :
-        self.producer = KafkaProducer(bootstrap_servers=['192.168.10.11:9092']) 
+        # self.producer = KafkaProducer(bootstrap_servers=['192.168.10.11:9092']) 
         pass
     def process_item(self, item, spider):
         print("处理") 
